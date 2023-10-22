@@ -1,0 +1,1 @@
+# vagrant-gitlabce-gitlab-runner
