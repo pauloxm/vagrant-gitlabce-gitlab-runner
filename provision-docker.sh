@@ -25,7 +25,7 @@ sudo usermod -aG docker vagrant
 echo "[TASK 5] run gitlab container"
 
 export GITLAB_HOME=/srv/gitlab
-export GITLAB_HOME=/vagrant//gitlab
+export GITLAB_HOME=/vagrant/gitlab
 
 
 docker run -d --name gitlab --hostname gitlab.example.com \
